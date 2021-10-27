@@ -1,0 +1,30 @@
+.snake{
+	background-color: lime;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	position: fixed;
+	z-index: 10;
+}
+
+.orb{
+	background-color: red;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	position: fixed;
+	z-index: 10;
+}
+
+#death-msg{
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #f008;
+	border: 2px solid red;
+	border-radius: 15px;
+	padding: 20px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	color: white;
+}
